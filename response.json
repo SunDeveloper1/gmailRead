@@ -1,0 +1,150 @@
+{
+    "id": "18969ecc5fa46cd2",
+    "threadId": "18969ecc5fa46cd2",
+    "labelIds": [
+        "CATEGORY_PERSONAL",
+        "INBOX"
+    ],
+    "snippet": "😁😁😁 We are pleased to inform you that you have Won BEst Actor Award for Breaking Bad. Thanks Vivek Rao",
+    "payload": {
+        "partId": "",
+        "mimeType": "multipart/alternative",
+        "filename": "",
+        "headers": [
+            {
+                "name": "Delivered-To",
+                "value": "walterwhitebr16@gmail.com"
+            },
+            {
+                "name": "Received",
+                "value": "by 2002:a05:7208:31c8:b0:6e:3e3b:14e1 with SMTP id v8csp2135678rbd;        Tue, 18 Jul 2023 09:54:32 -0700 (PDT)"
+            },
+            {
+                "name": "X-Received",
+                "value": "by 2002:a17:90a:7024:b0:262:c291:4b6c with SMTP id f33-20020a17090a702400b00262c2914b6cmr14496478pjk.45.1689699271913;        Tue, 18 Jul 2023 09:54:31 -0700 (PDT)"
+            },
+            {
+                "name": "ARC-Seal",
+                "value": "i=1; a=rsa-sha256; t=1689699271; cv=none;        d=google.com; s=arc-20160816;        b=xAiNzz+K0UWGouTweQXZKZ7VQ1r54HGKYcn8OaCA4cmmb0mhsZXghYsIk9nIxPsOuV         A0OCmnA6/YTqfnGHmQR/fOiIL+g9Qf3yrnqehQuZJYw+tbVyVugC+Uxh7NwFi+lHZtg4         CjIOOPPgjmwNGygE1AQFfXNtwCbQA/mXaPyJV/RwoEFsLxtE9GedF+WOMDxm5Nys6Wn6         U42WhscLEXsSy+1h/WNzRDvbWoA2ljnRDxKT2boU6/bYxk68FwMLFCACdAcICwayqCid         jXwNfdmTnfMhkKaViiKoZ8qsmgcJNyNw+A6PqqMtTnnLVNYKlBUAVGSvallcwO60SIry         avUg=="
+            },
+            {
+                "name": "ARC-Message-Signature",
+                "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=to:subject:message-id:date:from:mime-version:dkim-signature;        bh=odo1FilIzccMQP9JgOSqfjg+X/C/6niUu6gZBDmK7c0=;        fh=SOHwetvWQ/BRwd9VdUeK6Ru5krAqmE9oNtOy/Jh1zQQ=;        b=EpH2X3PLfjVUOgAefPw9dllDaL9SVuGj4cJSMXsjLfNMMhq5OPzm0/4owqwXuvUzYC         Pp9HACiv6quH0QUdB+PjqZUQC27SosU5atL98BW9pSOyVRMy0zPko10jURigErlaSJsN         YS5hL9oZxxetigeXPVmg+8eVgmKYtESavehiV8S5sVIfwYTqpLp5nvYwR3euqcyQQQko         kFfaxKX+n7jY29cjyLNnuoV2LbVgjEPu2Ih1DlIKkG47fG+cG2TikZK2HQrVr37p1Eoc         WyzICywZHrLHgbvRiR+Be/PJpGHDZK2KFFFeD5rksahsDcgPCQnopMNyVgoh8GC7wprM         xv2A=="
+            },
+            {
+                "name": "ARC-Authentication-Results",
+                "value": "i=1; mx.google.com;       dkim=pass header.i=@gmail.com header.s=20221208 header.b=\"Q/T7+jyd\";       spf=pass (google.com: domain of vivsreactor@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=vivsreactor@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com"
+            },
+            {
+                "name": "Return-Path",
+                "value": "<vivsreactor@gmail.com>"
+            },
+            {
+                "name": "Received",
+                "value": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id d126-20020a633684000000b00553c1745fadsor994286pga.5.2023.07.18.09.54.31        for <walterwhitebr16@gmail.com>        (Google Transport Security);        Tue, 18 Jul 2023 09:54:31 -0700 (PDT)"
+            },
+            {
+                "name": "Received-SPF",
+                "value": "pass (google.com: domain of vivsreactor@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+            },
+            {
+                "name": "Authentication-Results",
+                "value": "mx.google.com;       dkim=pass header.i=@gmail.com header.s=20221208 header.b=\"Q/T7+jyd\";       spf=pass (google.com: domain of vivsreactor@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=vivsreactor@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com"
+            },
+            {
+                "name": "DKIM-Signature",
+                "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20221208; t=1689699271; x=1690304071;        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject         :date:message-id:reply-to;        bh=odo1FilIzccMQP9JgOSqfjg+X/C/6niUu6gZBDmK7c0=;        b=Q/T7+jydwkU8Klwtz9LKQrORssa7tQWeE49oEmEYWJ7uecgWef/AEw3zL5QuJ9BbXx         pF5zSyFTe5zKJ5XraMaVq/pcapruBof8Ai0s0A9O2kfpNNBxRF/8iSv9wq2LdVlr3QnP         yA5wFLgPoeDqbDrcdqqSuifHW5hdD1kldTkH3LEwB5c67rVtBJqz4tpeWV+YgMxLeIbn         bRxSr1A/4fkeHPWw5zKRC/wEf6doNzyy22GRSXxkK/WDh+96OtJZLAfo1iTM/xzM+QL/         G7ZLT0QYBkXk4NFl1sBGC4LyEZxJc9D2BAWeIXyLTcWZZBqiaL041f8r9Qo0d+8u+04v         Y+tg=="
+            },
+            {
+                "name": "X-Google-DKIM-Signature",
+                "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20221208; t=1689699271; x=1690304071;        h=to:subject:message-id:date:from:mime-version:x-gm-message-state         :from:to:cc:subject:date:message-id:reply-to;        bh=odo1FilIzccMQP9JgOSqfjg+X/C/6niUu6gZBDmK7c0=;        b=e+V3QaAZ8EIrIj1ZKSLYU3wRgmyEz76AtYj1a/QtogPAS3E2Vz49DifSAPry1jeYD8         7aDDdsAk8CM5NugKLrl4Qyo0nj4KQ18BrsVKmIm8GDIEfM5/Qbp4MdC/My1bqdGKribJ         64+EcG7lrdrqdU1sIeel9jr7983P0hpu/FZd3BSMJcvU/jZ9Ctj6K2seVt3xiIGtiZCF         +I3DmlKOzZRUPTG0/7Smw9vChBDIsN6kPqEzyNP4ltqh/em7IJ8zMKHBfGSEH7zOIsFp         uK4wT5QeBHHeGgaeuk2RjXEjGJxiebaV+2gXIgXAmoQrFdE7pnmLXVt5cDkmNwU58a0T         qgYA=="
+            },
+            {
+                "name": "X-Gm-Message-State",
+                "value": "ABy/qLZbpv2p6XUmkBY4yQoHoXPDpAkIaBggRA+Du2P1to6Y9IwpJo3t z4yZj3UZOSDN64sOzAbLFWr3yBzPv4M9A1BkxnOZ8j63"
+            },
+            {
+                "name": "X-Google-Smtp-Source",
+                "value": "APBJJlHG4Rokc1sWqLpVxtrUMZ8quNdpXqHjqWWEUN5THIORrOzkeQ4oPIuiosU7hNVe0g/pOqs1hmbuwjReE/US87s="
+            },
+            {
+                "name": "X-Received",
+                "value": "by 2002:a17:903:1109:b0:1b8:560a:aa16 with SMTP id n9-20020a170903110900b001b8560aaa16mr19437476plh.10.1689699270813; Tue, 18 Jul 2023 09:54:30 -0700 (PDT)"
+            },
+            {
+                "name": "MIME-Version",
+                "value": "1.0"
+            },
+            {
+                "name": "From",
+                "value": "Vivek Singh Rao <vivsreactor@gmail.com>"
+            },
+            {
+                "name": "Date",
+                "value": "Tue, 18 Jul 2023 22:24:28 +0530"
+            },
+            {
+                "name": "Message-ID",
+                "value": "<CADaCppUA==1=qXiEUgHOReOvjVgew=TEx2HU2eV_G9JBSO9U2A@mail.gmail.com>"
+            },
+            {
+                "name": "Subject",
+                "value": "Mr Walter White Congratulations for Best Acting"
+            },
+            {
+                "name": "To",
+                "value": "walterwhitebr16@gmail.com"
+            },
+            {
+                "name": "Content-Type",
+                "value": "multipart/alternative; boundary=\"000000000000d06c3d0600c5c41c\""
+            }
+        ],
+        "body": {
+            "size": 0
+        },
+        "parts": [
+            {
+                "partId": "0",
+                "mimeType": "text/plain",
+                "filename": "",
+                "headers": [
+                    {
+                        "name": "Content-Type",
+                        "value": "text/plain; charset=\"UTF-8\""
+                    },
+                    {
+                        "name": "Content-Transfer-Encoding",
+                        "value": "quoted-printable"
+                    }
+                ],
+                "body": {
+                    "size": 131,
+                    "data": "8J-YgfCfmIHwn5iBDQoNCipXZSBhcmUgcGxlYXNlZCB0byBpbmZvcm0geW91IHRoYXQgeW91IGhhdmUgV29uKg0KDQoqQkVzdCBBY3RvciBBd2FyZCBmb3IgQnJlYWtpbmcgQmFkLioNCg0KKlRoYW5rcyoNCg0KVml2ZWsgUmFvDQo="
+                }
+            },
+            {
+                "partId": "1",
+                "mimeType": "text/html",
+                "filename": "",
+                "headers": [
+                    {
+                        "name": "Content-Type",
+                        "value": "text/html; charset=\"UTF-8\""
+                    },
+                    {
+                        "name": "Content-Transfer-Encoding",
+                        "value": "quoted-printable"
+                    }
+                ],
+                "body": {
+                    "size": 1060,
+                    "data": "PGRpdiBkaXI9Imx0ciI-8J-YgfCfmIHwn5iBPGJyPjxkaXY-PGJyPjwvZGl2PjxkaXY-PGZvbnQgZmFjZT0iY29taWMgc2FucyBtcywgc2Fucy1zZXJpZiIgc2l6ZT0iNCIgY29sb3I9IiNmZmZmMDAiPjxiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOnJnYigwLDI1NSwyNTUpIj5XZSBhcmUgcGxlYXNlZCB0byBpbmZvcm0geW91IHRoYXQgeW91IGhhdmUgV29uPC9iPjwvZm9udD48L2Rpdj48ZGl2Pjxmb250IGZhY2U9ImNvbWljIHNhbnMgbXMsIHNhbnMtc2VyaWYiIHNpemU9IjQiIGNvbG9yPSIjZmZmZjAwIj48YiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjpyZ2IoMCwyNTUsMjU1KSI-PGJyPjwvYj48L2ZvbnQ-PC9kaXY-PGRpdj48Zm9udCBmYWNlPSJjb21pYyBzYW5zIG1zLCBzYW5zLXNlcmlmIiBzaXplPSI0IiBjb2xvcj0iI2ZmZmYwMCI-PGIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6cmdiKDAsMjU1LDI1NSkiPkJFc3QgQWN0b3IgQXdhcmQgZm9yIEJyZWFraW5nwqBCYWQuPC9iPjwvZm9udD48L2Rpdj48ZGl2Pjxmb250IGZhY2U9ImNvbWljIHNhbnMgbXMsIHNhbnMtc2VyaWYiIHNpemU9IjQiIGNvbG9yPSIjZmZmZjAwIj48YiBzdHlsZT0iYmFja2dyb3VuZC1jb2xvcjpyZ2IoMCwyNTUsMjU1KSI-PGJyPjwvYj48L2ZvbnQ-PC9kaXY-PGRpdj48Zm9udCBmYWNlPSJjb21pYyBzYW5zIG1zLCBzYW5zLXNlcmlmIiBzaXplPSI0IiBjb2xvcj0iI2ZmZmYwMCI-PGIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6cmdiKDAsMjU1LDI1NSkiPlRoYW5rczwvYj48L2ZvbnQ-PC9kaXY-PGRpdj48Zm9udCBmYWNlPSJjb21pYyBzYW5zIG1zLCBzYW5zLXNlcmlmIiBzaXplPSI0IiBjb2xvcj0iI2ZmZmYwMCI-PGIgc3R5bGU9ImJhY2tncm91bmQtY29sb3I6cmdiKDAsMjU1LDI1NSkiPjxicj48L2I-PC9mb250PjwvZGl2PjxkaXY-PGZvbnQgZmFjZT0iY29taWMgc2FucyBtcywgc2Fucy1zZXJpZiIgc2l6ZT0iNCIgY29sb3I9IiM5OTAwZmYiIHN0eWxlPSJiYWNrZ3JvdW5kLWNvbG9yOnJnYigyNDMsMjQzLDI0MykiPlZpdmVrIFJhbzwvZm9udD48L2Rpdj48L2Rpdj4NCg=="
+                }
+            }
+        ]
+    },
+    "sizeEstimate": 6535,
+    "historyId": "1847",
+    "internalDate": "1689699268000"
+}

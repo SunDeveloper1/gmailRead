@@ -1,0 +1,144 @@
+[
+    {
+        "id": "1896398b07786548",
+        "threadId": "1896398b07786548",
+        "labelIds": [
+            "CATEGORY_PERSONAL",
+            "INBOX"
+        ],
+        "snippet": "Gmail API testing",
+        "payload": {
+            "partId": "",
+            "mimeType": "multipart/alternative",
+            "filename": "",
+            "headers": [
+                {
+                    "name": "Delivered-To",
+                    "value": "walterwhitebr16@gmail.com"
+                },
+                {
+                    "name": "Received",
+                    "value": "by 2002:a05:7208:31c8:b0:6e:3e3b:14e1 with SMTP id v8csp1223335rbd;        Mon, 17 Jul 2023 04:24:58 -0700 (PDT)"
+                },
+                {
+                    "name": "X-Received",
+                    "value": "by 2002:a05:6a00:2d20:b0:67a:20d0:b9bb with SMTP id fa32-20020a056a002d2000b0067a20d0b9bbmr13704666pfb.1.1689593098393;        Mon, 17 Jul 2023 04:24:58 -0700 (PDT)"
+                },
+                {
+                    "name": "ARC-Seal",
+                    "value": "i=1; a=rsa-sha256; t=1689593098; cv=none;        d=google.com; s=arc-20160816;        b=Hf8IUZKNcXADFCGE5pzrrAjAjECzoj4NR60aisM8qgLOv6HOMY+6WTMpoihYKDAvRO         PTmAzABSyQ2yfWk17razTn/ujn97V/s6CgySfPqP1VJrsmoQeTX5r3Z5CQ9uVENVkkSP         SIOPrA+NS0xoAay0DiiPaK/MGFVb/QnbJHp1alDoXYcRfMOzG5wFQsmrQADAHEY98QK2         HuomfK5r+V9HcE+tCl0kvhWP7ZytiN1TlC2adzVpaH3W8K7BrXSxHqBo9hwMFmt/uQsg         TzO735sEEnzwzUXiEBGd5wQM50g03/RwMav0UQqg/M0saL5LFuLgFgr7UUqj7aIK9mOg         ruTQ=="
+                },
+                {
+                    "name": "ARC-Message-Signature",
+                    "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=to:subject:message-id:date:from:mime-version:dkim-signature;        bh=Tm50eu+ZEnsOPSnvRoUbANfh4Gni2gZM+hDh1LwIwLE=;        fh=/u9rkci/2k0dLpH+8NLvAlCUjzwfMVwBkkw3j16sw+U=;        b=0tiG/p4bwaX9C/8XpctT288H12X9wZaVQJ9HCYgAfafm7e8GXt0xoRA/CePlRVxvtL         gx4a/Ox3vRbPZ6VkU4D5uf+gnScOFruQwzyNKnIVOeH9618fbxvmFcf5mJx4brR3s1Vi         1h7cGQKzF2ijDxZkEgWuc95vgI1H5PdTd0GrLn8+vlkO8jwlj1ZPgv959G6xJwlWLtCE         v7ZslQ0fbPnQnW1qZVSwfB3S5sgGUTPnO1U3znWpA0kgqMwKGtjivBQpl9qvirKHu7XN         RFB5snIEr2dcRRv9ICt37e189HYILS5WzH7v1o/dnuX1vizkrudpjBzxhr7XbiG246/p         xb4w=="
+                },
+                {
+                    "name": "ARC-Authentication-Results",
+                    "value": "i=1; mx.google.com;       dkim=pass header.i=@gmail.com header.s=20221208 header.b=lLjHRBaI;       spf=pass (google.com: domain of nobitanobisuki2@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=nobitanobisuki2@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com"
+                },
+                {
+                    "name": "Return-Path",
+                    "value": "<nobitanobisuki2@gmail.com>"
+                },
+                {
+                    "name": "Received",
+                    "value": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id m137-20020a633f8f000000b00553b4fc029csor1584123pga.3.2023.07.17.04.24.57        for <walterwhitebr16@gmail.com>        (Google Transport Security);        Mon, 17 Jul 2023 04:24:58 -0700 (PDT)"
+                },
+                {
+                    "name": "Received-SPF",
+                    "value": "pass (google.com: domain of nobitanobisuki2@gmail.com designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+                },
+                {
+                    "name": "Authentication-Results",
+                    "value": "mx.google.com;       dkim=pass header.i=@gmail.com header.s=20221208 header.b=lLjHRBaI;       spf=pass (google.com: domain of nobitanobisuki2@gmail.com designates 209.85.220.41 as permitted sender) smtp.mailfrom=nobitanobisuki2@gmail.com;       dmarc=pass (p=NONE sp=QUARANTINE dis=NONE) header.from=gmail.com"
+                },
+                {
+                    "name": "DKIM-Signature",
+                    "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=gmail.com; s=20221208; t=1689593097; x=1692185097;        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject         :date:message-id:reply-to;        bh=Tm50eu+ZEnsOPSnvRoUbANfh4Gni2gZM+hDh1LwIwLE=;        b=lLjHRBaIvKTsgo9pg21sQ4XW0M/h1SMqRp7sUTUalpNmZLgnzlt0JWQ9ckFqBnEZyC         sGtJ4NT5psyjr4xXsOHEOLmpQ++NWqJL6xbcxfRvesV3HxqY6SUBLEz5YxolRULNIl7o         Ptn+n60M7A3UiSun4Zd51Lg77zWebROmpGTzcm9d9HHZkl5iMfo5YfQaBbADEwQk+fRW         bvm7QGpEhNSda9ly3nGejbMu0Pdk2RZlWOvFghWraj0ncru0kvyNMM5ZgtV0j03DE7wm         xKYXXAlrsaHY0vEzqJQ4eHmSatcgZqBq7A4rANjMgn4u4Zcuw6aIPRUW875isdNbtV+G         xVPw=="
+                },
+                {
+                    "name": "X-Google-DKIM-Signature",
+                    "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20221208; t=1689593097; x=1692185097;        h=to:subject:message-id:date:from:mime-version:x-gm-message-state         :from:to:cc:subject:date:message-id:reply-to;        bh=Tm50eu+ZEnsOPSnvRoUbANfh4Gni2gZM+hDh1LwIwLE=;        b=KHEmN53IMG3sx7J5F2swRWRnxV5YAGbvzlYtWudM6qLFC4jksMjVjLmgtiTMgFsFo4         T1vsRPZ2Qt822iQs+D4tILOvf8x/wKLqWxb5CyiHfctttPXjcwaWe0IqtC1/Cj3BPf3z         3K9S8APMhC+76kXYqX95aZPBi3Xz/srgT8GfCvJl/IYteO2FqTWdCucGKYThQSLSlN7q         kgFunxL2KljYDEhxo8bCGF/cLNmvo+SJ4Jv+4WIDKWsp+cg6ZXrSkQtusNBjIqLzk8s6         gFGcUxOO5oeRnMYPgyiEorRUjeAo2x83Zr5R8HflJrTIiaQWv+yVHzjSq26YtkDF/59d         DNcg=="
+                },
+                {
+                    "name": "X-Gm-Message-State",
+                    "value": "ABy/qLYuq6VTrl1RC2t+rbl10cumITceqWa/pRWY5cPAvTGBxnCw2A08 9aeT4uW46VxXGvs+GMfD+H3IJ2tkziOhon98AxuDdh+g"
+                },
+                {
+                    "name": "X-Google-Smtp-Source",
+                    "value": "APBJJlG6fLKWqqvFCSzfPpbW/0+yabbsMjVy2INUcmV2ZFC8OsFa7ei8fCdqTnDsAUNNZVsAS5vKFUe3fNBQrxMOj1U="
+                },
+                {
+                    "name": "X-Received",
+                    "value": "by 2002:a17:90a:ca91:b0:263:e121:5440 with SMTP id y17-20020a17090aca9100b00263e1215440mr12540877pjt.1.1689593097252; Mon, 17 Jul 2023 04:24:57 -0700 (PDT)"
+                },
+                {
+                    "name": "MIME-Version",
+                    "value": "1.0"
+                },
+                {
+                    "name": "From",
+                    "value": "Nobisuki Nobita <nobitanobisuki2@gmail.com>"
+                },
+                {
+                    "name": "Date",
+                    "value": "Mon, 17 Jul 2023 16:54:44 +0530"
+                },
+                {
+                    "name": "Message-ID",
+                    "value": "<CAGZsmBJD2MuVrNJQtAAy-4LB+hLk1b1=6EfSLE7bm2jn2eZ0NA@mail.gmail.com>"
+                },
+                {
+                    "name": "Subject",
+                    "value": "This is Gmail API testing mail"
+                },
+                {
+                    "name": "To",
+                    "value": "\"walterwhitebr16@gmail.com\" <walterwhitebr16@gmail.com>"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "multipart/alternative; boundary=\"0000000000006072c50600ad0c9d\""
+                }
+            ],
+            "body": {
+                "size": 0
+            },
+            "parts": [
+                {
+                    "partId": "0",
+                    "mimeType": "text/plain",
+                    "filename": "",
+                    "headers": [
+                        {
+                            "name": "Content-Type",
+                            "value": "text/plain; charset=\"UTF-8\""
+                        }
+                    ],
+                    "body": {
+                        "size": 19,
+                        "data": "R21haWwgQVBJIHRlc3RpbmcNCg=="
+                    }
+                },
+                {
+                    "partId": "1",
+                    "mimeType": "text/html",
+                    "filename": "",
+                    "headers": [
+                        {
+                            "name": "Content-Type",
+                            "value": "text/html; charset=\"UTF-8\""
+                        }
+                    ],
+                    "body": {
+                        "size": 41,
+                        "data": "PGRpdiBkaXI9ImF1dG8iPkdtYWlsIEFQSSB0ZXN0aW5nPC9kaXY-DQo="
+                    }
+                }
+            ]
+        },
+        "sizeEstimate": 5198,
+        "historyId": "2125",
+        "internalDate": "1689593084000"
+    }
+]
