@@ -1,0 +1,231 @@
+[
+    {
+    "id": "1901a8580c944753",
+    "threadId": "1901a8580c944753",
+    "labelIds": [
+        "IMPORTANT",
+        "CATEGORY_PERSONAL",
+        "INBOX"
+    ],
+    "snippet": "Attachment The information contained in this electronic communication is intended solely for the individual(s) or entity to which it is addressed. It may contain proprietary, confidential and/or",
+    "payload": {
+        "partId": "",
+        "mimeType": "multipart/mixed",
+        "filename": "",
+        "headers": [
+            {
+                "name": "Delivered-To",
+                "value": "walterwhitebr16@gmail.com"
+            },
+            {
+                "name": "Received",
+                "value": "by 2002:a9d:6c51:0:b0:6f9:c569:6217 with SMTP id g17csp2303438otq;        Fri, 14 Jun 2024 23:15:18 -0700 (PDT)"
+            },
+            {
+                "name": "X-Received",
+                "value": "by 2002:a17:90a:c594:b0:2c4:ddb5:7bb6 with SMTP id 98e67ed59e1d1-2c4ddb57e9amr4695048a91.35.1718431878343;        Fri, 14 Jun 2024 23:11:18 -0700 (PDT)"
+            },
+            {
+                "name": "X-Received",
+                "value": "by 2002:a17:90a:c594:b0:2c4:ddb5:7bb6 with SMTP id 98e67ed59e1d1-2c4ddb57e9amr4694977a91.35.1718431875208;        Fri, 14 Jun 2024 23:11:15 -0700 (PDT)"
+            },
+            {
+                "name": "ARC-Seal",
+                "value": "i=1; a=rsa-sha256; t=1718431875; cv=none;        d=google.com; s=arc-20160816;        b=TuKo4mYZCXs4/71gvGP1MeMgdsLnx2+deA8huaMxnBKB5QP62lSdI87qoC7RopvngG         ZzEzI89bCWXdupvZfMawiBUM2cHAH4/WlBasISwGGeBf0EOKr/S0moZkzMZHmHJxMnRG         dEW/rG9kuiIVQeaSMFvcR7rI2fWpLkw7gVAA+EJCy7ElP43M2UNvwuWEb5BrD8HF635a         9xRzGdbG7CtMYzciKG83G2waiV2MK797t5BSJoUhTi/BLrcstWyMcGWbqgkCmzTmYoij         ycrn7e7//bKokohGDXVtuhTcTE0iGL+AfyPWY1OmAvsTYVVytb3bC3p/kjQKkh5HuZ0s         xz2w=="
+            },
+            {
+                "name": "ARC-Message-Signature",
+                "value": "i=1; a=rsa-sha256; c=relaxed/relaxed; d=google.com; s=arc-20160816;        h=to:subject:message-id:date:from:mime-version:dkim-signature;        bh=54cMW6j4aZF5hsYfyc4vMryhUjTImJgEWXfMmdtcg1I=;        fh=T4Mh+Y7MXJjF/g3NlfSXpT+TUzI9GNfW0HT/sD4+5H8=;        b=PpZ3OknqVfcBo0GfaN8nlDlBwc0p5Bbmk4ufMnsuXFdd3+AOJb+uoXZJNL+wu8VPsJ         PJFdKnJuvX+0sGsTDQiv78JhitMhk7ylwkwDXV7dbUFn7Upy2z5cu/q+fMGpsv4VhKrE         CY37FYKMyONDtuvEz4y1tM1soj1kliVzOMBCQGmLUW6mg2M6H7ss+slvy2WI/NwRq9g1         5SUVKXA0a8T8XlFgxwncSuk9NW+PYQdpK0Tipv7eJvz5lCxdgHi5eCA9NOztVF1R9FVh         166bMg0VbQEGSh+dFPMFcrXb1obJjDdj+9G+KjOOJxicZshFRx9gEbXgdBcy+kaoqEo2         IRpw==;        dara=google.com"
+            },
+            {
+                "name": "ARC-Authentication-Results",
+                "value": "i=1; mx.google.com;       dkim=pass header.i=@wilp.bits-pilani.ac.in header.s=google header.b=kyFEYDLZ;       spf=pass (google.com: domain of 202117b3567@wilp.bits-pilani.ac.in designates 209.85.220.41 as permitted sender) smtp.mailfrom=202117b3567@wilp.bits-pilani.ac.in;       dara=pass header.i=@gmail.com"
+            },
+            {
+                "name": "Return-Path",
+                "value": "<202117b3567@wilp.bits-pilani.ac.in>"
+            },
+            {
+                "name": "Received",
+                "value": "from mail-sor-f41.google.com (mail-sor-f41.google.com. [209.85.220.41])        by mx.google.com with SMTPS id 98e67ed59e1d1-2c4c828dfd6sor2768842a91.4.2024.06.14.23.11.14        for <walterwhitebr16@gmail.com>        (Google Transport Security);        Fri, 14 Jun 2024 23:11:15 -0700 (PDT)"
+            },
+            {
+                "name": "Received-SPF",
+                "value": "pass (google.com: domain of 202117b3567@wilp.bits-pilani.ac.in designates 209.85.220.41 as permitted sender) client-ip=209.85.220.41;"
+            },
+            {
+                "name": "Authentication-Results",
+                "value": "mx.google.com;       dkim=pass header.i=@wilp.bits-pilani.ac.in header.s=google header.b=kyFEYDLZ;       spf=pass (google.com: domain of 202117b3567@wilp.bits-pilani.ac.in designates 209.85.220.41 as permitted sender) smtp.mailfrom=202117b3567@wilp.bits-pilani.ac.in;       dara=pass header.i=@gmail.com"
+            },
+            {
+                "name": "DKIM-Signature",
+                "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=wilp.bits-pilani.ac.in; s=google; t=1718431874; x=1719036674; dara=google.com;        h=to:subject:message-id:date:from:mime-version:from:to:cc:subject         :date:message-id:reply-to;        bh=54cMW6j4aZF5hsYfyc4vMryhUjTImJgEWXfMmdtcg1I=;        b=kyFEYDLZZGIlLK/8pDF4Jy51ICYV9S3TJn85Gr77JTnkinnyZ0+y319X76LVOsOJ2N         w/LIsJG767BcQJOI1A676wVE4dYeOjyITvBB9UdjneDwlGeG0bSVsfAwE7xQ975AxgC8         AN2A1N5VzsNaXA3zcgd3aA4S5H2Wdud0xrj9E="
+            },
+            {
+                "name": "X-Google-DKIM-Signature",
+                "value": "v=1; a=rsa-sha256; c=relaxed/relaxed;        d=1e100.net; s=20230601; t=1718431874; x=1719036674;        h=to:subject:message-id:date:from:mime-version:x-gm-message-state         :from:to:cc:subject:date:message-id:reply-to;        bh=54cMW6j4aZF5hsYfyc4vMryhUjTImJgEWXfMmdtcg1I=;        b=bsn8zm5gAu/o/a4Ocd6Sl7nydJqyj9HMsnnzewG/a0ehr+Ehla05j9SNvxR4OiDtMH         X/fp9EXZnqmT5St7IFvkLyVE0vZBFwe6/2ZF5Hp9LF/YOLtjIDF6iJwCgwEd7aupAoBh         FEa030O/nK20eLL5MGlnG01GNBbpNaIm1DMID9lceVK3bBeWqduQ5ehnsYQnVcOihtnA         gheT0GtVTyfFBx8u5AUTQQ65lYM7ETVsJIiF3aAEFqDHMTt8wMwZo/Hl/sNw9q7GVks2         tlvy0u+2pBsPNHdB5JYbKinFExWzW3O5GZM5i0Yvf3tOM/ioqyzDrKVeDAUx/ycH+OAC         9hdg=="
+            },
+            {
+                "name": "X-Gm-Message-State",
+                "value": "AOJu0YycKfVomsBXW4cW5dq89vv/HsDjQw5P6BnjhM8u768n/Ozne0lv +Cqde9qwYaW6rBPz/GYEkPBM/AFBwjXUbxVWAnDkMN+LP0GU4BDJgasxlSw5p8+HY6+IzHy24iW LCjKbAHNEMJScafTUZ58TrN1Xxfgi2wv/kXgbuixN+KLpPWH9QPc+oQ50+LGw4DNMjvtZRgNy+M IRZlkMwvND0N1iq72xd9Cx3fcpIbNrShLsX73Y"
+            },
+            {
+                "name": "X-Google-Smtp-Source",
+                "value": "AGHT+IGiN06Gzflh/zCN7ACcYwQ2VdKtJW7dtUBqXHinCkX+OvB0tKksYTFnT54bfxlIynYPwzJptKtWBZmi5jKhHzg="
+            },
+            {
+                "name": "X-Received",
+                "value": "by 2002:a17:90a:f2c9:b0:2c2:7c34:d5fa with SMTP id 98e67ed59e1d1-2c4dba4d3d8mr4706859a91.32.1718431872447; Fri, 14 Jun 2024 23:11:12 -0700 (PDT)"
+            },
+            {
+                "name": "MIME-Version",
+                "value": "1.0"
+            },
+            {
+                "name": "From",
+                "value": "\"VIVEK SINGH RAO .\" <202117b3567@wilp.bits-pilani.ac.in>"
+            },
+            {
+                "name": "Date",
+                "value": "Sat, 15 Jun 2024 11:42:57 +0530"
+            },
+            {
+                "name": "Message-ID",
+                "value": "<CANwkPZrkXYtn07owxuANS=-HGkgmSGzOTPybRh98gMEQJhwihQ@mail.gmail.com>"
+            },
+            {
+                "name": "Subject",
+                "value": "Attachment Mail"
+            },
+            {
+                "name": "To",
+                "value": "walterwhitebr16@gmail.com"
+            },
+            {
+                "name": "Content-Type",
+                "value": "multipart/mixed; boundary=\"0000000000005451fe061ae79989\""
+            }
+        ],
+        "body": {
+            "size": 0
+        },
+        "parts": [
+            {
+                "partId": "0",
+                "mimeType": "multipart/alternative",
+                "filename": "",
+                "headers": [
+                    {
+                        "name": "Content-Type",
+                        "value": "multipart/alternative; boundary=\"0000000000005451fc061ae79987\""
+                    }
+                ],
+                "body": {
+                    "size": 0
+                },
+                "parts": [
+                    {
+                        "partId": "0.0",
+                        "mimeType": "text/plain",
+                        "filename": "",
+                        "headers": [
+                            {
+                                "name": "Content-Type",
+                                "value": "text/plain; charset=\"UTF-8\""
+                            }
+                        ],
+                        "body": {
+                            "size": 817,
+                            "data": "QXR0YWNobWVudA0KDQotLSANClRoZSBpbmZvcm1hdGlvbiBjb250YWluZWQgaW4gdGhpcyBlbGVjdHJvbmljIGNvbW11bmljYXRpb24gaXMgaW50ZW5kZWQgDQpzb2xlbHkgZm9yIHRoZSBpbmRpdmlkdWFsKHMpIG9yIGVudGl0eSB0byB3aGljaCBpdCBpcyBhZGRyZXNzZWQuIEl0IG1heSANCmNvbnRhaW4gcHJvcHJpZXRhcnksIGNvbmZpZGVudGlhbCBhbmQvb3IgbGVnYWxseSBwcml2aWxlZ2VkIGluZm9ybWF0aW9uLiANCkFueSByZXZpZXcsIHJldHJhbnNtaXNzaW9uLCBkaXNzZW1pbmF0aW9uLCBwcmludGluZywgY29weWluZyBvciBvdGhlciB1c2UgDQpvZiwgb3IgdGFraW5nIGFueSBhY3Rpb24gaW4gcmVsaWFuY2Ugb24gdGhlIGNvbnRlbnRzIG9mIHRoaXMgaW5mb3JtYXRpb24gYnkgDQpwZXJzb24ocykgb3IgZW50aXRpZXMgb3RoZXIgdGhhbiB0aGUgaW50ZW5kZWQgcmVjaXBpZW50IGlzIHN0cmljdGx5IA0KcHJvaGliaXRlZCBhbmQgbWF5IGJlIHVubGF3ZnVsLiBJZiB5b3UgaGF2ZSByZWNlaXZlZCB0aGlzIGNvbW11bmljYXRpb24gaW4gDQplcnJvciwgcGxlYXNlIG5vdGlmeSB1cyBieSByZXNwb25kaW5nIHRvIHRoaXMgZW1haWwgb3IgdGVsZXBob25lIGFuZCANCmltbWVkaWF0ZWx5IGFuZCBwZXJtYW5lbnRseSBkZWxldGUgYWxsIGNvcGllcyBvZiB0aGlzIG1lc3NhZ2UgYW5kIGFueSANCmF0dGFjaG1lbnRzIGZyb20geW91ciBzeXN0ZW0ocykuIFRoZSBjb250ZW50cyBvZiB0aGlzIG1lc3NhZ2UgZG8gbm90IA0KbmVjZXNzYXJpbHkgcmVwcmVzZW50IHRoZSB2aWV3cyBvciBwb2xpY2llcyBvZiBCSVRTIFBpbGFuaS4NCg=="
+                        }
+                    },
+                    {
+                        "partId": "0.1",
+                        "mimeType": "text/html",
+                        "filename": "",
+                        "headers": [
+                            {
+                                "name": "Content-Type",
+                                "value": "text/html; charset=\"UTF-8\""
+                            },
+                            {
+                                "name": "Content-Transfer-Encoding",
+                                "value": "quoted-printable"
+                            }
+                        ],
+                        "body": {
+                            "size": 821,
+                            "data": "PGRpdiBkaXI9Imx0ciI-QXR0YWNobWVudDwvZGl2Pg0KDQo8YnI-DQpUaGUgaW5mb3JtYXRpb24gY29udGFpbmVkIGluIHRoaXMgZWxlY3Ryb25pYyBjb21tdW5pY2F0aW9uIGlzIGludGVuZGVkIHNvbGVseSBmb3IgdGhlIGluZGl2aWR1YWwocykgb3IgZW50aXR5IHRvIHdoaWNoIGl0IGlzIGFkZHJlc3NlZC4gSXQgbWF5IGNvbnRhaW4gcHJvcHJpZXRhcnksIGNvbmZpZGVudGlhbCBhbmQvb3IgbGVnYWxseSBwcml2aWxlZ2VkIGluZm9ybWF0aW9uLiBBbnkgcmV2aWV3LCByZXRyYW5zbWlzc2lvbiwgZGlzc2VtaW5hdGlvbiwgcHJpbnRpbmcsIGNvcHlpbmcgb3Igb3RoZXIgdXNlIG9mLCBvciB0YWtpbmcgYW55IGFjdGlvbiBpbiByZWxpYW5jZSBvbiB0aGUgY29udGVudHMgb2YgdGhpcyBpbmZvcm1hdGlvbiBieSBwZXJzb24ocykgb3IgZW50aXRpZXMgb3RoZXIgdGhhbiB0aGUgaW50ZW5kZWQgcmVjaXBpZW50IGlzIHN0cmljdGx5IHByb2hpYml0ZWQgYW5kIG1heSBiZSB1bmxhd2Z1bC4gSWYgeW91IGhhdmUgcmVjZWl2ZWQgdGhpcyBjb21tdW5pY2F0aW9uIGluIGVycm9yLCBwbGVhc2Ugbm90aWZ5IHVzIGJ5IHJlc3BvbmRpbmcgdG8gdGhpcyBlbWFpbCBvciB0ZWxlcGhvbmUgYW5kIGltbWVkaWF0ZWx5IGFuZCBwZXJtYW5lbnRseSBkZWxldGUgYWxsIGNvcGllcyBvZiB0aGlzIG1lc3NhZ2UgYW5kIGFueSBhdHRhY2htZW50cyBmcm9tIHlvdXIgc3lzdGVtKHMpLiBUaGUgY29udGVudHMgb2YgdGhpcyBtZXNzYWdlIGRvIG5vdCBuZWNlc3NhcmlseSByZXByZXNlbnQgdGhlIHZpZXdzIG9yIHBvbGljaWVzIG9mIEJJVFMgUGlsYW5pLjxicj4="
+                        }
+                    }
+                ]
+            },
+            {
+                "partId": "1",
+                "mimeType": "image/jpeg",
+                "filename": "marissa-grootes-ck0i9Dnjtj0-unsplash.jpg",
+                "headers": [
+                    {
+                        "name": "Content-Type",
+                        "value": "image/jpeg; name=\"marissa-grootes-ck0i9Dnjtj0-unsplash.jpg\""
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment; filename=\"marissa-grootes-ck0i9Dnjtj0-unsplash.jpg\""
+                    },
+                    {
+                        "name": "Content-Transfer-Encoding",
+                        "value": "base64"
+                    },
+                    {
+                        "name": "Content-ID",
+                        "value": "<f_lxfq0m3n0>"
+                    },
+                    {
+                        "name": "X-Attachment-Id",
+                        "value": "f_lxfq0m3n0"
+                    }
+                ],
+                "body": {
+                    "attachmentId": "ANGjdJ-eW0XMxB7wi_PhH8cD-2YKBn0hoi5_IuvRLN3770jJWnU1xsIclzfkK69kPzQ6VdSnYKbTvIkGErW2Ho7eHT7GZNv6gNo-Zcx7NiF86MpYE49tymFM0hxIELByBBUdEzUod005-aP-UsR1sJm0Voq6kwYIQc3VlH7VGRrCDSVer1BTeCaAo4UxtG3Ob5mMxv3uERPWuXct02tRgbYRSQGSBebMerlFnJSzG1QO4RmxpD2LJNOdWNS7qMqQ7-RdjDDRVIlbvMHJsgyOCGF5HbDzSVIlpP8a4-WE_n5LVVaB343ASfJl6UCkYrQsvyU7ggXJgIbRzXz2wPewE1IYDwTNyaeyzsXhihdi1FDx8RthvOtZ1K_k0SePOlI3NW9befVvoilFXsBdVxAZ",
+                    "size": 2048437
+                }
+            },
+            {
+                "partId": "2",
+                "mimeType": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+                "filename": "Proposal Format (1).docx",
+                "headers": [
+                    {
+                        "name": "Content-Type",
+                        "value": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; name=\"Proposal Format (1).docx\""
+                    },
+                    {
+                        "name": "Content-Disposition",
+                        "value": "attachment; filename=\"Proposal Format (1).docx\""
+                    },
+                    {
+                        "name": "Content-Transfer-Encoding",
+                        "value": "base64"
+                    },
+                    {
+                        "name": "Content-ID",
+                        "value": "<f_lxfq0zlm1>"
+                    },
+                    {
+                        "name": "X-Attachment-Id",
+                        "value": "f_lxfq0zlm1"
+                    }
+                ],
+                "body": {
+                    "attachmentId": "ANGjdJ_ozS1exw4DveiMf4OdaWkSytF93rrHhNoTPrTpphyh0peOEfVVnEDlZJW-2_-xYb5IVxq4lAQEerCjHHXeVCxFcHc8J2Tony4hglR0GjGVxAbAn8JrR4cgwE9D67uh-zyQ5XApU_6BhnENtGTlAY7oZgrHGA_hdE7IahVxOTEnwbTfOxJJENtViCph7LVKgK7LWYLGZkOMve5SbjXkVcXA37YfmDfiiDon-bjmuT_c0Xec8y_SnlUI7JhCmHUx0Gme9N4r1xie0FSF4429RpbwRGy5Y4zixa6zU8V-q45XB49dwmLs9UBYs5fx73Syz9pxZxsnmMeSl1ORPkHGkeBb7eE4forxcqHan23LqWxtne7OKPr0CjUYMLjprcGeD5GobFWLSF4DDG6R",
+                    "size": 560469
+                }
+            }
+        ]
+    },
+    "sizeEstimate": 3577791,
+    "historyId": "48838",
+    "internalDate": "1718431977000"
+    }
+]
